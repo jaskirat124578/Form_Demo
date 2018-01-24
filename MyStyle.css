@@ -1,0 +1,73 @@
+
+
+body
+{
+background-image:url("background.jpg");
+}
+
+#footer
+{
+
+width:100%;
+text-align:center;
+background-image:url("images.jpeg");
+padding:20px;
+}
+
+
+.Hmenu
+{
+	color:white;
+	font-size:20px;
+	padding:0px 30px 0px 10px;
+}
+
+
+
+/*
+
+p
+{
+	color:white;
+	background-color:blue;
+	margin-left:50px;
+	
+}
+
+
+.pstyle
+{
+color:yellow;
+background-color:maroon;
+}
+
+.Bstyle
+{
+color:yellow;
+background-color:maroon;
+padding:100px 10px 100px 10px;
+margin : 0px 100px 0px 100px;
+
+
+border-radius:30px;
+
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+border-top-left-radius:30px;
+border-bottom-left-radius:30px;
+
+
+border-style:dotted;
+border-width:50px;
+border-color:green;
+
+box-shadow : 0px 20px 30px grey;
+
+
+font-family:Aharoni;
+font-size:20px;
+font-weight:bolder;
+font-style:italic;
+
+}
+*/
