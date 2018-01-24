@@ -1,0 +1,152 @@
+
+body
+{
+	background-color:grey;
+}
+
+.Bstyle
+{
+ box-shadow : 0px 10px 20px grey;
+}
+
+#mylist li
+{
+	display:inline-block;	
+	margin:0px;
+}
+
+#mylist li a
+{
+	background-color:white;
+	color:PURPLE;
+	padding:16px;
+}
+
+#mylist li:hover
+{
+	background-color:white;
+	color:PURPLE;
+}
+	
+#mylist li:hover #sublist
+{
+	position:absolute;
+	display:block;		
+	padding-left:0px;
+	background-color:white;
+	width:120px;	
+	text-align:left;
+}
+
+#sublist
+{
+	display:none;
+}
+
+#sublist li
+{
+	padding-top:20px;
+	padding-left:0px;
+	width:120px;	
+}
+
+.Menu
+{
+
+	background-color:PURPLE;
+	text-align:right;
+	display:inline-block;
+	width:100%;
+
+}
+
+.Hmenu
+{
+	color:white;
+	font-size:20px;	
+	text-decoration:none;
+}
+
+
+.row
+{
+	width:100%;
+	min-height:450px;
+	padding-top:50px;
+}
+
+.col1, .col3
+{
+	
+        width:33%;
+	float:left;
+	min-height:450px;
+	font-size:25px;
+	color:red;
+	text-align:center;
+}
+
+.col2
+{       
+       
+	width:34%;
+	float:left;
+	min-height:450px;
+	font-size:30px;
+	color:green;
+	text-align:center;
+
+}
+
+
+.col1 img
+{
+	
+		width:250px;
+		height:250px;
+		margin:30px;
+		
+}
+.col2 img
+{
+	
+		width:250px;
+		height:250px;
+		margin:30px;
+
+		
+}
+.col3 img
+{
+	
+		width:250px;
+		height:250px;
+		margin:30px;
+		
+}
+
+/*----------HOVER----- ---------*/
+.col1 img:hover
+{
+	
+		width:255px;
+		height:255px;		
+		box-shadow: 0px 0px 50px cyan;
+	
+}
+.col2 img:hover
+{
+	
+		width:255px;
+		height:255px;		
+		box-shadow: 0px 0px 50px cyan;
+	
+}
+.col3 img:hover
+{
+	
+		width:255px;
+		height:255px;		
+		box-shadow: 0px 0px 50px cyan;
+	
+}
