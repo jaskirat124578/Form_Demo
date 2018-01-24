@@ -1,0 +1,125 @@
+
+body
+{
+
+background-image:url("background.jpg");
+}
+
+
+img
+{
+	width:100%;height:175px;
+}
+
+.Menu
+{
+	background-color:maroon;
+	height:45px;
+	padding:10px 0px 10px 0px;
+	text-align:right;
+
+}
+
+#mylist li
+{
+	display:inline;
+	
+	margin:10px 10px 10px 10px;
+}
+
+.Hmenu
+{
+	color:white;
+	font-size:20px;
+	padding:0px 30px 0px 10px;
+	text-decoration:none;
+}
+
+.row
+{
+	width:100%;
+	min-height:450px;
+}
+
+.col1, .col3
+{
+	width:20%;
+	float:left;
+	min-height:450px;
+	font-size:25px;
+	color:red;
+}
+
+.col2
+{
+	width:60%;
+	float:left;
+	min-height:450px;
+	font-size:35px;
+	color:green;
+
+}
+
+
+#footer
+{
+
+width:100%;
+text-align:center;
+background-image:url("images.jpeg");
+padding:20px;
+}
+
+
+
+@media only screen and (max-width:900px)
+{
+
+
+.Menu
+{
+	background-color:maroon;
+	height:180px;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+
+}
+
+
+#mylist li
+{
+	display:block;
+}
+
+.row
+{
+	width:100%;
+	min-height:450px;
+}
+
+
+
+.col1, .col3
+{
+	width:100%;
+	float:left;
+	min-height:450px;
+	font-size:25px;
+	color:blue;
+	text-align:center;
+}
+
+.col2
+{
+	width:100%;
+	float:left;
+	min-height:450px;
+	font-size:35px;
+	color:yellow;
+	text-align:center;
+
+}
+
+
+
+}
